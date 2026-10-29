@@ -1,0 +1,13 @@
+subreddits = ["learnprogramming", "learnpython", "webdev"]
+
+# Number of newest posts read per subreddit per run (one request each)
+posts_per_subreddit = 100
+
+# Raw data older than this is deleted automatically
+retention_days = 30
+
+# Number of topics shown in the weekly report
+top_n = 15
+
+data_dir = "data"
+reports_dir = "reports"
